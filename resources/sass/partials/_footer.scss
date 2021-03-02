@@ -1,0 +1,31 @@
+footer {
+    height: 400px;
+    padding: 50px 0;
+    color: $white;
+    background:
+        url('/images/logo-footer.png'),
+        url('/images/footer-bg.jpg');
+    background-size: auto 140%, cover;
+    background-position: 80% center, center;
+    background-repeat: no-repeat;    
+
+    ul {
+        list-style: none;
+    }
+        
+    a {
+        display: block;
+        color: $grey;
+        font-size: 15px;
+        font-weight: 700;
+
+        &:hover {
+            text-decoration: none;
+            color: $blue;
+        }
+    }
+
+    h3 {
+        font-weight: 600;
+    }
+}
